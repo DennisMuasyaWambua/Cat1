@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Cat1</string>
+    <string name="crime_book">Crime book</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="officer_id">Officer ID</string>
+    <string name="officer_password">officer password</string>
+    <string name="officer_name">Officer Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email">email</string>
+</resources>

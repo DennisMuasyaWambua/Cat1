@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Login">
+
+    <!-- TODO: Update blank fragment layout -->
+
+            <RelativeLayout
+                android:id="@+id/officerLogin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <EditText
+                    android:id="@+id/mail"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/email"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:drawableStart="@drawable/ic_baseline_email_24"
+                    android:drawableLeft="@drawable/ic_baseline_email_24"
+                    android:layout_marginStart="30dp" />
+
+                <EditText
+                    android:id="@+id/officerPassword"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/officer_password"
+                    android:gravity="center"
+                    android:inputType="textPassword"
+                    android:drawableStart="@drawable/ic_baseline_lock_24"
+                    android:layout_below="@id/mail"
+                    android:drawableLeft="@drawable/ic_baseline_lock_24"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginStart="30dp" />
+                <Button
+                    android:id="@+id/loginButton"
+                    android:layout_width="250dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/auth"
+                    android:layout_below="@id/officerPassword"
+                    android:gravity="center"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="@string/login"/>
+
+
+            </RelativeLayout>
+
+
+
+
+</FrameLayout>
